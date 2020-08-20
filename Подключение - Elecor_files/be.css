@@ -1,0 +1,95 @@
+.container b, .container strong, .html b, .html strong {
+	font-weight: bold;
+}
+
+.mobile__left_flex {
+	margin: 80px 0px;
+}
+
+.content_block__wswg {
+	margin-right: 30px;
+}
+
+.content_block__wswg p {
+	line-height: 30px;
+    color: #1f1f1f;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.faces p.double span.faces__price {
+	font-weight: 700;
+    font-size: 24px;
+    color: #d2985f;
+}
+
+.faces__link {
+    color: #d2985f;
+    text-decoration: none;
+}
+
+.faces__link::after {
+    display: block;
+    width: 0%;
+    height: 1px;
+    background: #d2985f;
+    content: '';
+    transition: all 0.3s;
+}
+
+.faces__link:hover::after {
+    width: 100%;
+}
+
+.overlay .modal.modal__faces {
+    width: 700px;
+    margin-left: -350px;
+}
+
+.html a {
+    text-decoration: none;
+	color: #d2985f;
+    transition: all 0.3s;
+}
+
+.html a:hover {
+    text-decoration: underline;
+}
+
+.html table {
+	width: 100%;
+}
+
+.html table th {
+	text-align: left;
+	font-weight: bold;
+}
+
+.html table td, .html table th {
+	border: 1px solid #d9c6ad;
+    padding: 5px 20px;
+}
+
+.html ul li {
+    padding-left: 44px;
+    position: relative;
+}
+
+.html ul li:after {
+    left: 0;
+    top: 5px;
+    content: '';
+    background-image: url(../img/check.svg);
+    width: 20px;
+    height: 17px;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+}
+
+@media only screen and (max-width: 1200px) {
+	.mobile__left_flex {
+		margin: auto;
+	}
+}

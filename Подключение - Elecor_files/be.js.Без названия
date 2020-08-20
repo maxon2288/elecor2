@@ -1,0 +1,15 @@
+$(document).ready(function() {
+	$('.tabs .modal').each(function () {
+		$(this).detach().appendTo($('.overlay')).removeAttr('style');
+	});
+	$('body').on('click', '.modal .close', function () {
+		$(".modal").removeClass("active")
+		$(".overlay").removeClass("active");
+	});
+	$('[data-modal]').on('click', function (e) {
+		e.preventDefault();
+        $(".overlay").addClass("active");
+        $('.modal').removeClass("active");
+        $('.'+$(this).data('modal')).addClass("active");
+	});
+});
