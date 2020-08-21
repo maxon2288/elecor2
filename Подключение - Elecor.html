@@ -210,6 +210,7 @@
         <script type="text/javascript" charset="UTF-8" src="./Подключение - Elecor_files/marker.js.Без названия"></script>
         <script type="text/javascript" charset="UTF-8" src="./Подключение - Elecor_files/onion.js.Без названия"></script>
         <script type="text/javascript" charset="UTF-8" src="./Подключение - Elecor_files/controls.js.Без названия"></script>
+        <link rel="stylesheet" href="max-style.css">
     </head>
     <body>
         <script>
@@ -307,13 +308,15 @@
                 <div class="pagex__title">Подключение</div>
                 <div class="pagex__tabs tabs">
                     <div class="tabs__tabnames">
-                        <div class="tabs__tabname active">Установка приложения</div>
+                        <div class="tabs__tabname active">Установка МТК</div>
                         <div class="tabs__tabname">Настройка</div>
                         <div class="tabs__tabname">Регистрация</div>
                         <div class="tabs__tabname">Оплата</div>
+                        <div class="tabs__tabname">Установка приложения</div>
+                        <div class="tabs__tabname" style="opacity: 0"></div>
                     </div>
                     <div class="tabs__tabs">
-                        <div class="tabs__tab active">
+                        <div class="tabs__tab ">
                             <div class="pagex__bold">Шаг 1.</div>
                             <div class="pagex__small">
                                 <div class="pagex__cont">
@@ -493,6 +496,12 @@
                         <div class="tabs__tab">
                             <div class="last">
                                 <div class="pagex__bold">Шаг 4.</div>
+
+                                <div class="pagex__text">Есть промокод ? </div>
+
+
+                                <input type="text" class="pagex__finput" placeholder="Введите его в поле">
+                                
                                 <div class="pagex__text">В заключении вам предстоит оплатить</div>
                                 <div class="last__flex">
                                     <div class="last__box">
@@ -608,6 +617,35 @@
                                 </div>
                             </div>
                         </div>
+                        
+                        <div class="tabs__tab active">
+                            <div class="pagex__bold">Шаг 5.</div>
+                            <div class="pagex__small">
+                                <div class="pagex__cont">
+                                    <div class="pagex__text">Установите приложение Клиент ОА "ELECOR" <br> в <span>Play Market</span> или <span>App Store</span></div>
+                                    <div class="pagex__tel pagex__tel-2">
+                                        <div class="pagex__image pagex__tel-2"><img src="phones.jpg" alt="" /></div>
+                                    </div>
+                                </div>
+                                <div class="pagex__buttons">
+                                    <a href="https://itunes.apple.com/ru/app/%D1%82%D1%80%D0%B5%D0%B2%D0%BE%D0%B6%D0%BD%D0%B0%D1%8F-%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D0%B0-%D0%BE%D0%B0-elecor/id1434264330?l=en&amp;mt=8" class="btn btn--soc">
+                                        <div class="btn__image"><img src="./Подключение - Elecor_files/ios.png" alt="" /></div>
+                                        <div class="btn__content">
+                                            <div class="btn__d">Скачать на</div>
+                                            <div class="btn__p">App Store</div>
+                                        </div>
+                                    </a>
+                                    <a href="https://play.google.com/store/apps/details?id=com.gpspsec.elecor" class="btn btn--soc">
+                                        <div class="btn__image"><img src="./Подключение - Elecor_files/play.png" alt="" /></div>
+                                        <div class="btn__content">
+                                            <div class="btn__d">Скачать на</div>
+                                            <div class="btn__p">Google Play</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="https://elecor.kz/app/install/" class="btn btn--normal prev">ДАЛЕЕ</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -700,6 +738,163 @@
             </div>
         </section>
         <div class="overlay">
+            <div class="modal modal7 modal11">
+                <div class="modal__img">
+                    <img src="popup-1.png" alt="">
+                </div>
+                <div class="close">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="16px">
+                        <path
+                            fill-rule="evenodd"
+                            fill="rgb(135, 133, 133)"
+                            d="M9.893,7.989 L15.605,2.277 C16.131,1.751 16.131,0.899 15.605,0.373 C15.079,-0.153 14.227,-0.153 13.701,0.373 L7.989,6.085 L2.277,0.373 C1.751,-0.153 0.899,-0.153 0.373,0.373 C-0.153,0.899 -0.153,1.751 0.373,2.277 L6.085,7.989 L0.373,13.701 C-0.153,14.227 -0.153,15.079 0.373,15.605 C0.899,16.131 1.751,16.131 2.277,15.605 L7.989,9.893 L13.701,15.605 C14.227,16.131 15.079,16.131 15.605,15.605 C16.131,15.079 16.131,14.227 15.605,13.701 L9.893,7.989 Z"
+                        ></path>
+                    </svg>
+                </div>
+                <div class="zag">ПРОВЕРКА</div>
+                <div class="textts">Мы должны убедиться , что Тревожная Кнопка «ELECOR» работает 
+                        исправно, в течение 10 минут вам позвонит наш сотрудник и попросит 
+                        нажать на кнопку, когда вы будете подключены к нашей системе 
+                        (это займет несколько минут).
+                </div>
+
+                <div class="btn">
+                        ХОРОШО
+                </div>
+            </div>
+            <div class="modal modal8 modal11">
+                <div class="modal__img">
+                    <img src="popup-1.png" alt="">
+                </div>
+                <div class="close">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="16px">
+                        <path
+                            fill-rule="evenodd"
+                            fill="rgb(135, 133, 133)"
+                            d="M9.893,7.989 L15.605,2.277 C16.131,1.751 16.131,0.899 15.605,0.373 C15.079,-0.153 14.227,-0.153 13.701,0.373 L7.989,6.085 L2.277,0.373 C1.751,-0.153 0.899,-0.153 0.373,0.373 C-0.153,0.899 -0.153,1.751 0.373,2.277 L6.085,7.989 L0.373,13.701 C-0.153,14.227 -0.153,15.079 0.373,15.605 C0.899,16.131 1.751,16.131 2.277,15.605 L7.989,9.893 L13.701,15.605 C14.227,16.131 15.079,16.131 15.605,15.605 C16.131,15.079 16.131,14.227 15.605,13.701 L9.893,7.989 Z"
+                        ></path>
+                    </svg>
+                </div>
+                <div class="zag">Ваш промокод активирован</div>
+                <div class="textts">Спасибо что пользуетесь нашими услугами 
+                </div>
+
+                <div class="btn">
+                    ХОРОШО
+                </div>
+            </div>
+            <div class="modal modal9 modal11">
+                <div class="modal__img">
+                    <img src="popup-1.png" alt="">
+                </div>
+                <div class="close">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="16px">
+                        <path
+                            fill-rule="evenodd"
+                            fill="rgb(135, 133, 133)"
+                            d="M9.893,7.989 L15.605,2.277 C16.131,1.751 16.131,0.899 15.605,0.373 C15.079,-0.153 14.227,-0.153 13.701,0.373 L7.989,6.085 L2.277,0.373 C1.751,-0.153 0.899,-0.153 0.373,0.373 C-0.153,0.899 -0.153,1.751 0.373,2.277 L6.085,7.989 L0.373,13.701 C-0.153,14.227 -0.153,15.079 0.373,15.605 C0.899,16.131 1.751,16.131 2.277,15.605 L7.989,9.893 L13.701,15.605 C14.227,16.131 15.079,16.131 15.605,15.605 C16.131,15.079 16.131,14.227 15.605,13.701 L9.893,7.989 Z"
+                        ></path>
+                    </svg>
+                </div>
+                <div class="zag">Вы уже воспользовались
+                    промокодом</div>
+                <div class="textts">Спасибо что пользуетесь нашими услугами 
+                </div>
+
+                <div class="btn">
+                    ХОРОШО
+                </div>
+            </div>
+            <div class="modal modal10 modal11">
+                <div class="modal__img">
+                    <img src="popup-1.png" alt="">
+                </div>
+                <div class="close">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="16px">
+                        <path
+                            fill-rule="evenodd"
+                            fill="rgb(135, 133, 133)"
+                            d="M9.893,7.989 L15.605,2.277 C16.131,1.751 16.131,0.899 15.605,0.373 C15.079,-0.153 14.227,-0.153 13.701,0.373 L7.989,6.085 L2.277,0.373 C1.751,-0.153 0.899,-0.153 0.373,0.373 C-0.153,0.899 -0.153,1.751 0.373,2.277 L6.085,7.989 L0.373,13.701 C-0.153,14.227 -0.153,15.079 0.373,15.605 C0.899,16.131 1.751,16.131 2.277,15.605 L7.989,9.893 L13.701,15.605 C14.227,16.131 15.079,16.131 15.605,15.605 C16.131,15.079 16.131,14.227 15.605,13.701 L9.893,7.989 Z"
+                        ></path>
+                    </svg>
+                </div>
+                <div class="zag">Ваш промокод активирован</div>
+                <div class="textts">Спасибо что пользуетесь нашими услугами 
+                </div>
+
+                <div class="btn">
+                    ХОРОШО
+                </div>
+            </div>
+            <div class="modal modal111 modal11">
+                <div class="modal__img">
+                    <img src="popup-1.png" alt="">
+                </div>
+                <div class="close">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="16px">
+                        <path
+                            fill-rule="evenodd"
+                            fill="rgb(135, 133, 133)"
+                            d="M9.893,7.989 L15.605,2.277 C16.131,1.751 16.131,0.899 15.605,0.373 C15.079,-0.153 14.227,-0.153 13.701,0.373 L7.989,6.085 L2.277,0.373 C1.751,-0.153 0.899,-0.153 0.373,0.373 C-0.153,0.899 -0.153,1.751 0.373,2.277 L6.085,7.989 L0.373,13.701 C-0.153,14.227 -0.153,15.079 0.373,15.605 C0.899,16.131 1.751,16.131 2.277,15.605 L7.989,9.893 L13.701,15.605 C14.227,16.131 15.079,16.131 15.605,15.605 C16.131,15.079 16.131,14.227 15.605,13.701 L9.893,7.989 Z"
+                        ></path>
+                    </svg>
+                </div>
+                <div class="zag">Ваш промокод
+                    больше недействителен.</div>
+                <div class="textts">Свяжитесь с технической поддержкой
+                </div>
+
+                <div class="btn">
+                        ХОРОШО
+                </div>
+            </div>
+            <div class="modal modal12 modal11">
+                <div class="modal__img">
+                    <img src="popup-1.png" alt="">
+                </div>
+                <div class="close">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="16px">
+                        <path
+                            fill-rule="evenodd"
+                            fill="rgb(135, 133, 133)"
+                            d="M9.893,7.989 L15.605,2.277 C16.131,1.751 16.131,0.899 15.605,0.373 C15.079,-0.153 14.227,-0.153 13.701,0.373 L7.989,6.085 L2.277,0.373 C1.751,-0.153 0.899,-0.153 0.373,0.373 C-0.153,0.899 -0.153,1.751 0.373,2.277 L6.085,7.989 L0.373,13.701 C-0.153,14.227 -0.153,15.079 0.373,15.605 C0.899,16.131 1.751,16.131 2.277,15.605 L7.989,9.893 L13.701,15.605 C14.227,16.131 15.079,16.131 15.605,15.605 C16.131,15.079 16.131,14.227 15.605,13.701 L9.893,7.989 Z"
+                        ></path>
+                    </svg>
+                </div>
+                <div class="zag">установка почти завершена</div>
+                <div class="textts">Перед тем, как продолжить установку, ознакомьтесь с политикой 
+                    конфиденциальности и условиями обслуживания:
+                </div>
+
+
+
+                <div class="popup__links">
+                    <a href="#">Политика конфиденциальности</a>
+                    <a href="#">Условия пользования</a>
+                    <a href="#">Договор</a>
+                </div>
+
+                <label class="modal__check checkbox">
+                    <input type="checkbox" checked/> 
+                    <span class="checkbox__fake">
+                        <?xml version="1.0" encoding="iso-8859-1"?>
+                        <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            width="78.369px" height="78.369px" viewBox="0 0 78.369 78.369" style="enable-background:new 0 0 78.369 78.369;"
+                            xml:space="preserve">
+                            <path d="M78.049,19.015L29.458,67.606c-0.428,0.428-1.121,0.428-1.548,0L0.32,40.015c-0.427-0.426-0.427-1.119,0-1.547l6.704-6.704
+                                c0.428-0.427,1.121-0.427,1.548,0l20.113,20.112l41.113-41.113c0.429-0.427,1.12-0.427,1.548,0l6.703,6.704
+                                C78.477,17.894,78.477,18.586,78.049,19.015z"/>
+                        </svg>
+                    </span>
+                    <span class="checkbox__text">Я ознакомлен со всеми документами, изложенными выше и согласен с условиями обслуживания приложения Тревожная Кнопка «ELECOR»</span>
+                </label>
+
+                <div class="btn">
+                    ПРОДОЛЖИТЬ
+                </div>
+            </div>
             <form class="modal modal1" onsubmit="yaCounter47842265.reachGoal(&#39;zakaz1&#39;);">
                 <div class="close">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="16px">
@@ -806,6 +1001,8 @@
             </div>
             <div class="bg"></div>
         </div>
+
+
         <script type="text/javascript">
             (function (d, w, c) {
                 (w[c] = w[c] || []).push(function () {
